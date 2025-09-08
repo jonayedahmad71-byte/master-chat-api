@@ -7,7 +7,7 @@ app.use(cors({ origin: true }));
 app.use(express.json());
 
 // ✅ Groq API Key — এখানে আপনার আসল key পেস্ট করুন
-const GROQ_API_KEY = 'gsk_your_real_api_key_here'; // ← ⚠️ এখানে আপনার আসল key পেস্ট করুন
+const GROQ_API_KEY = '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'; // ← ⚠️ এখানে আপনার আসল key পেস্ট করুন
 
 async function getBotResponse(userMessage, language) {
     try {
